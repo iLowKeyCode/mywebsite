@@ -17,6 +17,13 @@ a:hover {
   color: #6497b1 !important;
 }
 
+.myLogo {
+  height: 64px;
+  width: 64px;
+  border: 1px solid #464866;
+  border-radius: 50%;
+}
+
 body {
   background: #011f4b;
   padding: 20px;
@@ -26,17 +33,6 @@ body {
 nav {
   display: flex;
   gap: 20px;
-}
-
-nav .logo {
-  height: 64px;
-  width: 64px;
-  background: #011f4b;
-  border: 1px solid #464866;
-  border-radius: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 nav .logo i {
